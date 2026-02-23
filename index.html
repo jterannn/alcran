@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCRAN — Catálogo Oficial</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #ffffff;
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Cabeçalho minimalista */
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 25px 0;
+            border-bottom: 2px solid #000;
+            position: sticky;
+            top: 0;
+            background: #fff;
+            z-index: 10;
+        }
+
+        header h1 {
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: 4px;
+            margin: 0;
+        }
+
+        /* Banner grande */
+        .banner {
+            width: 100%;
+            height: 280px;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        /* Título da seção */
+        .titulo-catalogo {
+            font-size: 26px;
+            font-weight: 700;
+            margin: 30px 40px;
+        }
+
+        /* Grid de produtos */
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+            padding: 0 40px 50px 40px;
+        }
+
+        /* Card */
+        .item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 14px;
+            padding: 15px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .nome {
+            margin-top: 12px;
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .preco {
+            font-size: 16px;
+            font-weight: bold;
+            color: #e60000;
+            margin-top: 6px;
+        }
+
+        .botao {
+            margin-top: 12px;
+            display: block;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid #000;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background: #000;
+            color: #fff;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>ALCRAN</h1>
+</header>
+
+<div class="banner">
+    C A T Á L O G O
+</div>
+
+<h2 class="titulo-catalogo">Catálogo</h2>
+
+<section class="catalogo">
+
+    <!-- PRODUTO 1 -->
+    <div class="item">
+        <img src="imagem/1.jpg" alt="Produto 1">
+        <div class="nome">Produto 1</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/4qANyS9xYw" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 2 -->
+    <div class="item">
+        <img src="imagem/2.jpg" alt="Produto 2">
+        <div class="nome">Produto 2</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/4fqxmGyUiG" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 3 -->
+    <div class="item">
+        <img src="imagem/3.jpg" alt="Produto 3">
+        <div class="nome">Produto 3</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/7AYIkwZtaa" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 4 -->
+    <div class="item">
+        <img src="imagem/4.jpg" alt="Produto 4">
+        <div class="nome">Produto 4</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/AABuKZCutQ" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 5 -->
+    <div class="item">
+        <img src="imagem/5.jpg" alt="Produto 5">
+        <div class="nome">Produto 5</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/5L6eaAfCGY" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 6 -->
+    <div class="item">
+        <img src="imagem/6.jpg" alt="Produto 6">
+        <div class="nome">Produto 6</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/8pgWjtARsd" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 7 -->
+    <div class="item">
+        <img src="imagem/7.jpg" alt="Produto 7">
+        <div class="nome">Produto 7</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/9AJN8pRQkc" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 8 -->
+    <div class="item">
+        <img src="imagem/8.jpg" alt="Produto 8">
+        <div class="nome">Produto 8</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/10xfQ8b6Y4" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 9 -->
+    <div class="item">
+        <img src="imagem/9.jpg" alt="Produto 9">
+        <div class="nome">Produto 9</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/5L6ea7p4Sr" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 10 -->
+    <div class="item">
+        <img src="imagem/10.jpg" alt="Produto 10">
+        <div class="nome">Produto 10</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/9KcnLPbOEu" target="_blank" class="botao">Comprar</a>
+    </div>
+
+    <!-- PRODUTO 11 -->
+    <div class="item">
+        <img src="imagem/11.jpg" alt="Produto 11">
+        <div class="nome">Produto 11</div>
+        <div class="preco">R$ 00,00</div>
+        <a href="https://s.shopee.com.br/4qANz674NT" target="_blank" class="botao">Comprar</a>
+    </div>
+
+</section>
+
+</body>
+</html>
